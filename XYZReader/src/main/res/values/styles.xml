@@ -18,11 +18,37 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+<item name="colorPrimary">@color/yellow_500</item>
+<item name="colorPrimaryDark">@color/yellow_700</item>
+<item name="colorAccent">@color/accent_lightblue400</item>
+
+
+
+
 
     </style>
 
+    <style name="TextThemeTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="TextThemeSubTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/text_subtitle</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomMaterial" parent="Theme.AppCompat">
+
     </style>
 
 </resources>
