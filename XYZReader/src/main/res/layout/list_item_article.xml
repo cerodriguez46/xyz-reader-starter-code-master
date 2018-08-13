@@ -4,7 +4,6 @@
     android:layout_height="wrap_content"
     android:layout_marginLeft="@dimen/marginLeft"
     android:layout_marginRight="@dimen/marginRight"
-    android:layout_marginTop="@dimen/marginTop"
     android:layout_marginBottom="@dimen/marginBottom"
     android:clickable="true"
     android:focusable="true"
@@ -20,7 +19,7 @@
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/photo_placeholder" />
+            android:scaleType="centerCrop" />
 
         <TextView
             android:id="@+id/article_title"
